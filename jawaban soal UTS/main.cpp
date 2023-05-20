@@ -22,7 +22,7 @@ void genap (int arr[], int n) {
         }
     }
     cout << "genap terkecil = " << minN << endl;
-    cout << "ada di index " << x << endl;
+    cout << "ada diindex ke-" << x << endl;
 }
 
 void bubble (int arr[], int n) {
@@ -53,23 +53,19 @@ void selection (int arr[], int n) {
     cout << endl;
 }
 
-void print (int arr[], int n) {
-    for (int i=0; i<n; i++) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-}
-
 int main()
 {
     int arr[] = {6, 7, 4, 3, 2};
     int n = sizeof(arr)/sizeof(int);
 
+    cout << "dari array [6, 7, 4, 3, 2], tentukan:" << endl << endl;
+    cout << "1. nilai genap terkecil" << endl;
     genap (arr, n);
-
-    cout << "bubble ";
+    cout << endl;
+    cout << "2. pengurutan menggunakan 2 sorting dari angka terbesar ke terkecil" << endl;
+    cout << "pengurutan dengan bubble sort : ";
     bubble (arr, n);
-    cout << "selection ";
+    cout << "pengurutan dengan selection sort :";
     selection (arr, n);
     return 0;
 }
