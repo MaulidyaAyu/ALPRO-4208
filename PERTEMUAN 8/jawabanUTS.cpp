@@ -5,6 +5,7 @@ MAULIDYA AYU ARDIENA - A11.2022.14310
 */
 using namespace std;
 
+// soal nomor 1
 bool ganjil(int n)
 {
     if (n % 2 == 0)
@@ -33,6 +34,7 @@ void genap(int arr[], int n)
     cout << "ada diindex ke-" << x << endl;
 }
 
+// soal noomor 2
 void bubble(int arr[], int n)
 {
     for (int i = 0; i < n - 1; i++)
@@ -76,9 +78,12 @@ int main()
 
     cout << "dari array [6, 7, 4, 3, 2], tentukan:" << endl
          << endl;
+    // soal nomor 1
     cout << "1. nilai genap terkecil" << endl;
     genap(arr, n);
     cout << endl;
+
+    // soal nomor 2
     cout << "2. pengurutan menggunakan 2 sorting dari angka terbesar ke terkecil" << endl;
     cout << "pengurutan dengan bubble sort : ";
     bubble(arr, n);
