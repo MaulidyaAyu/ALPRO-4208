@@ -1,6 +1,6 @@
 #include <iostream>
 /*
-jawaban soa UTS
+jawaban soal UTS
 MAULIDYA AYU ARDIENA - A11.2022.14310
 */
 using namespace std;
