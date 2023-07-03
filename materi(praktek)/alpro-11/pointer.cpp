@@ -17,7 +17,7 @@ int main()
 
     char c = 0;
     char *p = &c;
-    cout << "size = " << sizeof(p) << endl;
+    cout << "size = " << sizeof(p) << endl; //size pointer
     cout << endl;
 
     int var1 = 3;
